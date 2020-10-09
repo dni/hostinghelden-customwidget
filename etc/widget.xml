@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:codetheatres:Magento_Widget:etc/widget.xsd">
+   <widget class="Hostinghelden\CustomWidget\Block\Widget\InlineJs" id="InlineJs">
+       <label>Include JS</label>
+       <description>Includes Javascript inline into Page</description>
+       <parameters>
+           <parameter name="title" xsi:type="text" required="false" visible="true" sort_order="40">
+               <label translate="true">HTML</label>
+           </parameter>
+       </parameters>
+   </widget>
+</widgets>

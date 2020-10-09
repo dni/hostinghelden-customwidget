@@ -1,0 +1,23 @@
+{
+    "name": "hostinghelden/hostinghelden-customwidget",
+    "description": "inline js custom widget",
+    "require": {
+    },
+    "type": "magento2-module",
+    "version": "1.0.2",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Hostinghelden/CustomWidget"
+            ]
+        ]
+    },
+    "authors": [
+        {
+            "name": "Daniel Krahofer",
+            "homepage": "https://www.hostinghelden.at/",
+            "role": "Developer"
+        }
+    ]
+}
